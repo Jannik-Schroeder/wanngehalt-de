@@ -89,10 +89,14 @@ You can run the project with docker or npm.
 
 #### Docker
 
+ ```sh
+   git clone https://github.com/schroeder-is/wanngehalt-de.git
+ ```
+
 #### NPM 
 1. Clone the repo
    ```sh
-   git clone https://github.com/schroeder-is/wanngehalt-de.git
+   docker run --name "wanngehalt" -p 80:80 -d z0lefps/wanngehalt-de
    ```
 2. Install NPM packages
    ```sh
